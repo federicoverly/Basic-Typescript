@@ -1,7 +1,12 @@
 import React from 'react'
-import { BasicTypes } from './Typescript/BasicTypes'
-import { ObjectLiteral } from './Typescript/ObjectLiteral'
-import { Functions } from './Typescript/Functions';
+import { BasicTypes } from './typescript/BasicTypes'
+import { ObjectLiteral } from './typescript/ObjectLiteral'
+import { Functions } from './typescript/Functions';
+import { Count } from './components/Count';
+import { CountWithHook } from './components/CountWithHook';
+import { Login } from './components/Login';
+import { Users } from './components/Users';
+import { Formulaires } from './components/Formulaires';
 
 const App = () => {
   return (
@@ -13,6 +18,16 @@ const App = () => {
       <ObjectLiteral />
       <hr />
       <Functions />
+      <hr />
+      <Count />
+      <hr />
+      <CountWithHook />
+      <hr />
+      <Login />
+      <hr />
+      <Users />
+      <hr />
+      <Formulaires />
     </div>
   )
 }
