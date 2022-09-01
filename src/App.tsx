@@ -1,7 +1,7 @@
 import React from "react";
-import { BasicTypes } from "./typescript/BasicTypes";
-import { ObjectLiteral } from "./typescript/ObjectLiteral";
-import { Functions } from "./typescript/Functions";
+import { BasicTypes } from "./Typescript/BasicTypes";
+import { ObjectLiteral } from "./Typescript/ObjectLiteral";
+import { Functions } from "./Typescript/Functions";
 import { Count } from "./components/Count";
 import { CountWithHook } from "./components/CountWithHook";
 import { Login } from "./components/Login";
