@@ -19,3 +19,5 @@ npm start
 ```
 
 to start the application.
+
+You can also check it live [here](https://basic-typescript-beta.vercel.app/)
